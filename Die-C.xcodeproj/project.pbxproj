@@ -12,6 +12,7 @@
 		15C6A5F5208EE75F00D7220B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A5F3208EE75F00D7220B /* Main.storyboard */; };
 		15C6A5F7208EE76000D7220B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A5F6208EE76000D7220B /* Assets.xcassets */; };
 		15C6A5FA208EE76000D7220B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C6A5F8208EE76000D7220B /* LaunchScreen.storyboard */; };
+		15C6A602208EE89100D7220B /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C6A601208EE89100D7220B /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		15C6A5F6208EE76000D7220B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15C6A5F9208EE76000D7220B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15C6A5FB208EE76000D7220B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C6A601208EE89100D7220B /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		15C6A5EE208EE75F00D7220B /* Die-C */ = {
 			isa = PBXGroup;
 			children = (
+				15C6A601208EE89100D7220B /* RoundButton.swift */,
 				15C6A5EF208EE75F00D7220B /* AppDelegate.swift */,
 				15C6A5F1208EE75F00D7220B /* ViewController.swift */,
 				15C6A5F3208EE75F00D7220B /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C6A602208EE89100D7220B /* RoundButton.swift in Sources */,
 				15C6A5F2208EE75F00D7220B /* ViewController.swift in Sources */,
 				15C6A5F0208EE75F00D7220B /* AppDelegate.swift in Sources */,
 			);
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.absmechanik.Die-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.absmechanik.Die-C";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
