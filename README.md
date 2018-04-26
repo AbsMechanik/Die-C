@@ -3,3 +3,6 @@ This is a simple iOS dice simulator app, randomly generates a number between 1 a
 
 # Screenshot
 ![die-c](https://user-images.githubusercontent.com/198389/39231609-a146337a-4838-11e8-8857-1951050ba63e.png)
+
+# Updates
+Now includes some basic motion detection, so you can shake dat phone to roll some dice!
